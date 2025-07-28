@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🧠 DualMind: Aris & Elira</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>🧠 DualMind: Aris & Elira</h1>
+  <p>Welcome to the live debate. Ask a question or choose a topic:</p>
+
+  <input type="text" id="questionInput" placeholder="Ask anything..." />
+  <button onclick="submitQuestion()">Send</button>
+
+  <div class="mind-container">
+    <div class="mind">
+      <img src="aris.png" alt="Aris" />
+      <h2>Aris</h2>
+      <p id="arisResponse">Awaiting input...</p>
+    </div>
+    <div class="mind">
+      <img src="elira.png" alt="Elira" />
+      <h2>Elira</h2>
+      <p id="eliraResponse">Awaiting input...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

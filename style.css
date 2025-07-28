@@ -1,0 +1,30 @@
+
+body {
+  background: #0c0c12;
+  color: #f2f2f2;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+input {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+}
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+.mind-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.mind img {
+  height: 100px;
+}
+.mind p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #ccc;
+}
